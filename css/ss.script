@@ -1,0 +1,9 @@
+const menu = document.getElementById("menu_hamburguer");
+
+menu.addEventListener("click", () => {
+  const nav = document.getElementById("navbar");
+  const menuBG = document.getElementById("menu_top_right");
+  nav.classList.toggle("in");
+  menuBG.classList.toggle("in");
+  menu.classList.toggle("in");
+});
